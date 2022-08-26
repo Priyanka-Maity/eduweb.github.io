@@ -8,8 +8,7 @@ body,
 }
 
 .container {
-    max-width: 1800px;
-    width: 100%;
+    width:1530px;
     margin: auto;
     background-color: blue;
     height: 50px;
@@ -51,9 +50,14 @@ nav>ul>li:hover {
     justify-content: space-between;
 }
 
+main{
+    width: max-content;
+    height: 100%;
+}
+
 .image_background {
     height: 600px;
-    width: 100%;
+    width:1530px;
     background-image: url('https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?ca=6&ce=1&s=1024x768');
     background-attachment: fixed;
     background-color: #4c474700;
@@ -166,7 +170,7 @@ img {
 
 .image-1 {
     height: 500px;
-    width: 1390px;
+    width:1530px;
 
 }
 
@@ -175,7 +179,6 @@ img {
     flex-direction: row;
     align-items: center;
     position: relative;
-    margin-left: 40px;
 }
 
 .congent {
