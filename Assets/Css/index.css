@@ -1,0 +1,203 @@
+html,
+body,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1800px;
+    width: 100%;
+    margin: auto;
+    background-color: blue;
+    height: 50px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+nav>ul {
+    list-style-type: none;
+}
+
+nav>ul>li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+nav>ul>li:hover {
+    background-color: yellow;
+    padding: 2px;
+}
+
+.img {
+    height: 50px;
+    width: 100%;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_background {
+    height: 600px;
+    width: 100%;
+    background-image: url('https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?ca=6&ce=1&s=1024x768');
+    background-attachment: fixed;
+    background-color: #4c474700;
+    background-size: cover;
+}
+
+.button {
+    padding: 20px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.gradient-button {
+    margin: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+.gradient-button:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin: 8px 10px 12px;
+}
+
+.gradient-button-2 {
+    background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6 51%, #2BC0E4 100%)
+}
+
+.gradient-button-2:hover {
+    background-position: right center;
+}
+
+.div {
+    width: 700px;
+    height: 100px;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 200px;
+    }
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    border-radius: 4px;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conten {
+    border-radius: 4px;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    cursor: pointer;
+    display: inline-block;
+}
+
+.conten:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin: 8px 10px 12px;
+}
+
+.conten-2 {
+    background-image: linear-gradient(to right, #a4bdc4 0%, #EAECC6 51%, #a7bfc5 100%);
+
+}
+
+.conten-2:hover {
+    background-position: right center;
+}
+
+.text {
+
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    color: #000;
+
+}
+
+.image-1 {
+    height: 500px;
+    width: 1390px;
+
+}
+
+.div-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin-left: 40px;
+}
+
+.congent {
+    background-color: #fff;
+    height: 400px;
+    width: 500px;
+    margin-left: -520px;
+    border-radius: 4px;
+    padding: 20px;
+
+
+}
+
+.div-2 {
+    background-color: black;
+    height: 60px;
+    width: 200px;
+    margin-left: 130px;
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.div-2:hover{
+    background-color: rgba(13, 11, 11, 0.858);
+}
